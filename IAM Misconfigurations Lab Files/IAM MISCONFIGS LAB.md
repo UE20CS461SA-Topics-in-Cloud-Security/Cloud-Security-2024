@@ -8,6 +8,10 @@
 
 In this lab, we will explore IAM Misconfigurations and how they can be exploited. This will help to give an understanding of why it is important to follow the best practices while configuring anything on the cloud.
 
+We will be utilising CloudGoat. 
+
+CloudGoat is Rhino Security Labs' "Vulnerable by Design" AWS deployment tool. It allows you to hone your cloud cybersecurity skills by creating and completing several "capture-the-flag" style scenarios. Each scenario is composed of AWS resources arranged together to create a structured learning experience. We will be exploring one such scenario in this lab.
+
 #  Task 1:
 
 **Set-Up Requirements**
@@ -112,6 +116,7 @@ aws iam get-user --profile [profile_name]
 
 **Installing CloudGoat**
 
+
    ```
 git clone https://github.com/RhinoSecurityLabs/cloudgoat.git
 cd cloudgoat
@@ -147,7 +152,8 @@ Whitelisting an IP involves configuring a system or service to permit access onl
 
  It's a service that allows you to control access to AWS resources securely. With IAM, you can create and manage users, groups, and permissions to grant or deny access to AWS services and resources.
 <hr>
-**What is Privesc?**
+
+# **What is Privesc?**
  
 "Privesc" is short for "privilege escalation." It refers to the process of gaining higher levels of access or control within a system or environment than what was initially authorized.
 
