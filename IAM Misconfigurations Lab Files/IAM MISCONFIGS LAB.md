@@ -148,9 +148,9 @@ Whitelisting an IP involves configuring a system or service to permit access onl
  It's a service that allows you to control access to AWS resources securely. With IAM, you can create and manage users, groups, and permissions to grant or deny access to AWS services and resources.
 <hr>
 **What is Privesc?**
---------  
+ 
 "Privesc" is short for "privilege escalation." It refers to the process of gaining higher levels of access or control within a system or environment than what was initially authorized.
----------------------------------------------
+
 Remember , we are using CloudGoat to create a practice environment for finding vulnerabilities in the system and simulate how a "hacker"👨🏻‍💻 might think and act in the real world! 
 
 This will demonstrate the importance of preventing misconfigurations and highlight the need for following best practices while setting up your cloud environment!
